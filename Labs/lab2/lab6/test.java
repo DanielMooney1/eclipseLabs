@@ -3,12 +3,12 @@ package lab6;
 public class test {
 	   public static void main(String[] args) {
 	      // Test Student class
-	      student s1 = new Student("John Doe", "1 FairyLand Ave");
+	      student s1 = new student("John Doe", "1 FairyLand Ave");
 	      s1.addCourseGrade("H2215", 92);
 	      s1.addCourseGrade("H2202", 68);
 	      s1.printGrades();
 	      System.out.println("Average grade is " + s1.getAverageGrade());
-	      
+	     /*  
 	      // Test Teacher class
 	      Teacher t1 = new Teacher("Oisin Cawley", "8 Yellow Brick Road");
 	      System.out.println(t1);
@@ -34,6 +34,6 @@ public class test {
 	         {
 	            System.out.println(course + " cannot be removed.");
 	         }
-	      }
+	      } */
 	   }
 	}
